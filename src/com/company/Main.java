@@ -21,10 +21,11 @@ public class Main {
             gasto = Double.parseDouble(scanner.nextLine());
             residuo = residuo - gasto;
         }
-        if(residuo >= 0) {
+
+        if(residuo >= 0)
             System.out.println("Lo que queda de su quincena es: $" + (residuo));
-        }else{
+        else
             System.out.println("Le quedas debiendo: $" + (residuo * -1) + " al señor de la tienda.");
-        }
+
     }
 }
