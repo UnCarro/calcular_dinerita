@@ -25,7 +25,7 @@ public class Main {
         if(residuo >= 0)
             System.out.println("Lo que queda de su quincena es: $" + (residuo));
         else
-            System.out.println("Le quedas debiendo: $" + (residuo * -1) + " al señor de la tienda.");
+            System.out.println("Le quedas debiendo: $" + -residuo + " al señor de la tienda.");
 
     }
 }
